@@ -6,7 +6,7 @@ This python package is prepared by Jonathon Parker.
 
 Install
 
-`pip install git+ssh//git@github.com/arkerpay/preprocess_arkerpay.git`
+`pip install git+ssh://git@github.com/arkerpay/preprocess_arkerpay.git`
 
 
 Uninstall
