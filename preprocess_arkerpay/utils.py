@@ -161,7 +161,7 @@ def _get_urls(x):
     return counts, urls
 
 def _remove_urls(x):
-    return re.sub(r'(http|https|ftp|ssh)://([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?', x)
+    return re.sub(r'(http|https|ftp|ssh)://([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?', '', x)
 
 def _remove_rt(x):
     return re.sub(r'\brt\b', '', x)
